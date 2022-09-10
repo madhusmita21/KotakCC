@@ -1,0 +1,112 @@
+2022-08-18 19:39:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-18 19:39:58 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-18 19:39:59 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-18 19:40:00 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-18 19:40:10 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-18 19:40:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-18 19:40:22 INFO  SetUp - Chrome Browser Launched..
+2022-08-18 19:40:23 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-18 19:40:49 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-18 19:40:50 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_XPATH
+2022-08-18 19:42:12 ERROR CommonMethods - Not Sucessfully clicked on Monthly_income_ID due to :Expected condition failed: waiting for visibility of element located by By.xpath: ddl1_2_dropdownMatUi (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc2dad766074c3df80c35097aa6cccb9
+2022-08-18 19:42:13 INFO  CommonMethods - Sucessfully clicked on Salary_Range_XPATH
+2022-08-18 19:42:13 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_PDP_XPATH
+2022-08-18 19:42:17 INFO  CommonMethods - Sucessfully clicked on League_Platinum_Card_XPATH
+2022-08-18 19:42:17 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_CLASSNAME
+2022-08-18 19:43:17 ERROR CommonMethods - Not Sucessfully clicked on FirstName_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//input[@class='textbox-default errorBorder'])[1] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc2dad766074c3df80c35097aa6cccb9
+2022-08-18 19:43:17 ERROR CommonMethods - Data Not Sucessfully entered on FirstName_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='textbox-default errorBorder'])[1]"}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc2dad766074c3df80c35097aa6cccb9, findElement {using=xpath, value=(//input[@class='textbox-default errorBorder'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56948/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc2dad766074c3df80c35097aa6cccb9
+2022-08-18 19:43:17 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Passed
+2022-08-18 19:43:18 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-18 19:43:19 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-08-18 19:43:20 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-18 19:43:22 INFO  SetUp - Browser Closed..
+2022-08-18 20:21:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-18 20:21:02 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-18 20:21:07 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-18 20:21:08 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-18 20:21:10 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-18 20:21:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-18 20:21:21 INFO  SetUp - Chrome Browser Launched..
+2022-08-18 20:21:24 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-18 20:21:54 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-18 20:21:55 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_XPATH
+2022-08-18 20:21:55 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Passed
+2022-08-18 20:21:56 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-18 20:21:58 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-08-18 20:22:14 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-18 20:22:15 INFO  SetUp - Browser Closed..
+2022-08-18 20:33:07 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-18 20:33:07 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-18 20:33:10 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-18 20:33:11 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-18 20:33:13 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-18 20:33:13 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-18 20:33:20 INFO  SetUp - Chrome Browser Launched..
+2022-08-18 20:33:22 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-18 20:33:47 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-18 20:33:48 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_XPATH
+2022-08-18 20:35:07 ERROR CommonMethods - Not Sucessfully clicked on Monthly_income_ID due to :Expected condition failed: waiting for visibility of element located by By.xpath: ddl1_2_dropdownMatUi (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57364/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a88cf6005472f02c4e4d51f792d03875
+2022-08-18 20:35:07 INFO  CommonMethods - Sucessfully clicked on Salary_Range_XPATH
+2022-08-18 20:35:07 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_PDP_XPATH
+2022-08-18 20:35:07 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Passed
+2022-08-18 20:35:08 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-18 20:35:10 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass

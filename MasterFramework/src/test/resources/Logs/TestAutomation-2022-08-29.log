@@ -1,0 +1,128 @@
+2022-08-29 15:47:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-29 15:47:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 15:47:46 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 15:47:47 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-29 15:47:59 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 15:47:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 15:48:16 INFO  SetUp - Chrome Browser Launched..
+2022-08-29 15:48:25 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-29 15:49:29 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-29 15:49:32 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 15:50:42 ERROR CommonMethods - Not Sucessfully clicked on Monthly_income_ID due to :Expected condition failed: waiting for visibility of element located by By.xpath: ddl1_2_dropdownMatUi (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49337/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 010f2e28561318f1e80d2e891d41a510
+2022-08-29 15:50:42 INFO  CommonMethods - Sucessfully clicked on Salary_Range_XPATH
+2022-08-29 15:50:42 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_PDP_XPATH
+2022-08-29 15:50:46 INFO  CommonMethods - Sucessfully clicked on League_Platinum_Card_XPATH
+2022-08-29 15:50:56 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 15:50:57 INFO  CommonMethods - Sucessfully clicked on FirstName_XPATH
+2022-08-29 15:50:59 INFO  CommonMethods - Data sucessfully entered on FirstName_XPATH = SACHIN
+2022-08-29 15:50:59 INFO  CommonMethods - Sucessfully clicked on LastName_XPATH
+2022-08-29 15:51:00 INFO  CommonMethods - Data sucessfully entered on LastName_XPATH = KANASE
+2022-08-29 15:51:01 INFO  CommonMethods - Sucessfully clicked on PinCode_XPATH
+2022-08-29 15:51:02 INFO  CommonMethods - Data sucessfully entered on PinCode_XPATH = 400093
+2022-08-29 15:51:03 INFO  CommonMethods - Sucessfully clicked on PinList_XPATH
+2022-08-29 15:51:05 INFO  CommonMethods - Sucessfully clicked on Email_XPATH
+2022-08-29 15:51:06 INFO  CommonMethods - Data sucessfully entered on Email_XPATH = test@gmail.com
+2022-08-29 15:51:07 INFO  CommonMethods - Sucessfully clicked on MobileNo_XPATH
+2022-08-29 15:51:08 INFO  CommonMethods - Data sucessfully entered on MobileNo_XPATH = 7978736125
+2022-08-29 15:51:11 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 15:51:17 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =7978736125
+2022-08-29 15:51:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-29 15:51:21 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-08-29 15:51:22 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-29 15:51:23 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-08-29 15:51:24 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-29 15:52:25 ERROR SetUp - NTBUnsecuredUnassisted Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@class='textbox field__item'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49337/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 010f2e28561318f1e80d2e891d41a510
+2022-08-29 15:52:26 INFO  ScreenShot - ScreenShot captured NTBUnsecuredUnassisted || Status :Fail
+2022-08-29 15:52:26 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-29 15:52:28 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-08-29 16:10:33 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-29 16:10:33 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-29 16:10:36 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-29 16:10:36 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-29 16:10:39 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-29 16:10:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-29 16:10:53 INFO  SetUp - Chrome Browser Launched..
+2022-08-29 16:10:54 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-29 16:11:24 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-29 16:11:27 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 16:12:41 ERROR CommonMethods - Not Sucessfully clicked on Monthly_income_ID due to :Expected condition failed: waiting for visibility of element located by By.xpath: ddl1_2_dropdownMatUi (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50593/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb69efb6d67347e2224a31e5333979ad
+2022-08-29 16:12:41 INFO  CommonMethods - Sucessfully clicked on Salary_Range_XPATH
+2022-08-29 16:12:42 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_PDP_XPATH
+2022-08-29 16:12:46 INFO  CommonMethods - Sucessfully clicked on League_Platinum_Card_XPATH
+2022-08-29 16:12:53 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 16:12:54 INFO  CommonMethods - Sucessfully clicked on FirstName_XPATH
+2022-08-29 16:12:55 INFO  CommonMethods - Data sucessfully entered on FirstName_XPATH = SACHIN
+2022-08-29 16:12:56 INFO  CommonMethods - Sucessfully clicked on LastName_XPATH
+2022-08-29 16:12:57 INFO  CommonMethods - Data sucessfully entered on LastName_XPATH = KANASE
+2022-08-29 16:12:57 INFO  CommonMethods - Sucessfully clicked on PinCode_XPATH
+2022-08-29 16:12:58 INFO  CommonMethods - Data sucessfully entered on PinCode_XPATH = 400093
+2022-08-29 16:13:01 INFO  CommonMethods - Sucessfully clicked on PinList_XPATH
+2022-08-29 16:13:03 INFO  CommonMethods - Sucessfully clicked on Email_XPATH
+2022-08-29 16:13:04 INFO  CommonMethods - Data sucessfully entered on Email_XPATH = test@gmail.com
+2022-08-29 16:13:05 INFO  CommonMethods - Sucessfully clicked on MobileNo_XPATH
+2022-08-29 16:13:05 INFO  CommonMethods - Data sucessfully entered on MobileNo_XPATH = 7978736125
+2022-08-29 16:13:08 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-08-29 16:13:13 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =7978736125
+2022-08-29 16:13:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-29 16:13:16 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-08-29 16:13:16 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-29 16:13:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-08-29 16:13:19 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-08-29 16:13:20 INFO  CommonMethods - Sucessfully clicked on EnterMNumber_XPATH
+2022-08-29 16:13:21 INFO  CommonMethods - Data sucessfully entered on EnterMNumber_XPATH = 7978736125
+2022-08-29 16:13:21 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-08-29 16:13:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =726762
+2022-08-29 16:13:24 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/Vivid/vividflow/run#BasicDetails1
+2022-08-29 16:13:24 INFO  CommonMethods - Sucessfully clicked on OTP_XPATH
+2022-08-29 16:13:25 INFO  CommonMethods - Data sucessfully entered on OTP_XPATH = 726762
+2022-08-29 16:13:25 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_XPATH
+2022-08-29 16:14:37 ERROR CommonMethods - Not Sucessfully clicked on CalenderMonth_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="month-year bb-1 bg-white"] //div[1]//select[1] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50593/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb69efb6d67347e2224a31e5333979ad
+2022-08-29 16:14:37 ERROR CommonMethods - Data Not Sucessfully entered on CalenderMonth_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb69efb6d67347e2224a31e5333979ad, clearElement {id=d620fd7a-148e-47d9-8afa-a6ed86038e0e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50593/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb69efb6d67347e2224a31e5333979ad)] -> xpath: //div[@class="month-year bb-1 bg-white"] //div[1]//select[1]]
+Session ID: eb69efb6d67347e2224a31e5333979ad
+2022-08-29 16:15:33 INFO  CommonMethods - Sucessfully clicked on CalenderYear_XPATH
+2022-08-29 16:15:33 ERROR CommonMethods - Data Not Sucessfully entered on CalenderYear_XPATH due to :invalid element state
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb69efb6d67347e2224a31e5333979ad, clearElement {id=01f6dc55-6c99-4e3a-9c85-521977ed7dc6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50593/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (eb69efb6d67347e2224a31e5333979ad)] -> xpath: //div[@class="month-year bb-1 bg-white"] //div[2]//select[1]]
+Session ID: eb69efb6d67347e2224a31e5333979ad
+2022-08-29 16:15:39 INFO  CommonMethods - Sucessfully clicked on PAN_XPATH
+2022-08-29 16:15:40 INFO  CommonMethods - Data sucessfully entered on PAN_XPATH = AIRPT7169C
+2022-08-29 16:15:40 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Passed
+2022-08-29 16:15:42 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-29 16:15:43 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass

@@ -1,0 +1,44 @@
+2022-08-11 11:07:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-11 11:07:04 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-11 11:07:04 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-11 11:07:05 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-11 11:07:07 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-11 11:07:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-11 11:07:18 INFO  SetUp - Chrome Browser Launched..
+2022-08-11 11:07:20 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-11 11:08:08 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-11 11:09:09 ERROR SetUp - NTBUnsecuredUnassisted Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: id_68863022337842 (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51506/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94eddc26e636f0799d008accc7fcd4b7
+2022-08-11 11:09:09 INFO  ScreenShot - ScreenShot captured NTBUnsecuredUnassisted || Status :Fail
+2022-08-11 11:09:09 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-11 11:09:10 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-08-11 11:09:14 INFO  SetUp - Browser Closed..
+2022-08-11 11:10:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-11 11:10:45 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-08-11 11:10:47 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-08-11 11:10:47 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-08-11 11:10:48 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-11 11:10:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-11 11:10:52 INFO  SetUp - Chrome Browser Launched..
+2022-08-11 11:10:54 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-08-11 11:11:21 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-08-11 11:12:21 ERROR SetUp - NTBUnsecuredUnassisted Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: id_68934914193571 (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51708/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 738f80cd0e77dcf3081d05ba930b5eb8
+2022-08-11 11:12:22 INFO  ScreenShot - ScreenShot captured NTBUnsecuredUnassisted || Status :Fail
+2022-08-11 11:12:23 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-08-11 11:12:24 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-08-11 11:12:28 INFO  SetUp - Browser Closed..

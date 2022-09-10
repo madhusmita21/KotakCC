@@ -1,0 +1,87 @@
+2022-09-09 18:59:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Madhusmita P\eclipse-workspace_2022_Jan_Batch\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-09 18:59:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-09 18:59:47 INFO  SetUp - Test Case_VerifyCRMLogin_get Skipped as its Runmode is 'NO' 
+2022-09-09 18:59:49 INFO  SetUp - Test Case_NTBUnsecuredUnassisted_Successfully Started
+2022-09-09 19:00:00 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-09 19:00:00 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-09-09 19:00:01 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_win32.zip
+2022-09-09 19:00:03 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-09-09 19:00:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Madhusmita P\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-09 19:00:16 INFO  SetUp - Chrome Browser Launched..
+2022-09-09 19:00:17 INFO  SetUp - URL : https://crmdapuat.kotak.com/vivid/CreditCard.html
+2022-09-09 19:00:51 INFO  CommonMethods - Sucessfully clicked on Website_Option_XPATH
+2022-09-09 19:00:55 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-09-09 19:02:19 ERROR CommonMethods - Not Sucessfully clicked on Monthly_income_ID due to :Expected condition failed: waiting for visibility of element located by By.xpath: ddl1_2_dropdownMatUi (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:02:19 INFO  CommonMethods - Sucessfully clicked on Salary_Range_XPATH
+2022-09-09 19:02:20 INFO  CommonMethods - Sucessfully clicked on SubmitBtn_PDP_XPATH
+2022-09-09 19:02:24 INFO  CommonMethods - Sucessfully clicked on League_Platinum_Card_XPATH
+2022-09-09 19:02:40 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-09-09 19:02:43 INFO  CommonMethods - Sucessfully clicked on FirstName_XPATH
+2022-09-09 19:02:44 INFO  CommonMethods - Data sucessfully entered on FirstName_XPATH = SACHIN
+2022-09-09 19:02:45 INFO  CommonMethods - Sucessfully clicked on LastName_XPATH
+2022-09-09 19:02:46 INFO  CommonMethods - Data sucessfully entered on LastName_XPATH = KANASE
+2022-09-09 19:02:46 INFO  CommonMethods - Sucessfully clicked on PinCode_XPATH
+2022-09-09 19:02:47 INFO  CommonMethods - Data sucessfully entered on PinCode_XPATH = 400093
+2022-09-09 19:02:57 INFO  CommonMethods - Sucessfully clicked on PinList_XPATH
+2022-09-09 19:02:59 INFO  CommonMethods - Sucessfully clicked on Email_XPATH
+2022-09-09 19:03:00 INFO  CommonMethods - Data sucessfully entered on Email_XPATH = test@gmail.com
+2022-09-09 19:03:01 INFO  CommonMethods - Sucessfully clicked on MobileNo_XPATH
+2022-09-09 19:03:01 INFO  CommonMethods - Data sucessfully entered on MobileNo_XPATH = 7978736125
+2022-09-09 19:03:05 INFO  CommonMethods - Sucessfully clicked on ProceedBtn_XPATH
+2022-09-09 19:03:13 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =7978736125
+2022-09-09 19:04:17 ERROR CommonMethods - Not Sucessfully clicked on Username_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtName'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:04:17 ERROR CommonMethods - Data Not Sucessfully entered on Username_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtName']"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08ed08da0968ecd4c6e8fcf74071c58f, findElement {using=xpath, value=//input[@id='TxtName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:05:17 ERROR CommonMethods - Not Sucessfully clicked on password_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtPassword'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:05:17 ERROR CommonMethods - Data Not Sucessfully entered on password_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtPassword']"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08ed08da0968ecd4c6e8fcf74071c58f, findElement {using=xpath, value=//input[@id='TxtPassword']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:05:37 ERROR SetUp - NTBUnsecuredUnassisted Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08ed08da0968ecd4c6e8fcf74071c58f, findElement {using=xpath, value=//input[@name='command']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:05:48 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-TN4VH4B', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08ed08da0968ecd4c6e8fcf74071c58f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\MADHUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55539/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 08ed08da0968ecd4c6e8fcf74071c58f
+2022-09-09 19:05:49 INFO  CommonMethods - Row num for TestScenario = NTBUnsecuredUnassisted is = 2
+2022-09-09 19:05:50 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
